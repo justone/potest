@@ -1,0 +1,4 @@
+{:aliases {:dev {:extra-deps {io.github.justone/cljdev {:git/sha "e3acb0fefcb3d97b70f4ef26c9064b18c73daa28"}}
+                 :exec-fn cljdev.repl/start}}
+ :deps {potemkin/potemkin {:mvn/version "0.4.3"}}
+ :paths ["src"]}

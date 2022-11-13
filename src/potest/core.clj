@@ -2,7 +2,7 @@
   (:require [potemkin :as p]
             [potest.lib :as lib]))
 
-(p/import-fn potest.lib/import-fn-add)
+(p/import-fn lib/import-fn-add)
 (p/import-vars [lib import-var-sub])
 
 (comment
